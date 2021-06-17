@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <title>Random Credit Card Numbers Generator</title>
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <nav class="main-nav">
+                <div class="nav-left">
+                    <img src="image/logo.png" alt="img">
+                </div>
+                <div class="nav-right">
+                    <ul class="navbar">
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="head-section">
+        <div class="wrap">
+            <div class="flex-center">
+                <div class="section-width">
+                    <div class="h2">
+                        Generate random credit card numbers for testing, validation and/or verification purposes.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="wrap">
+            <div class="flex-center">
+                <div class="section-width">
+                    <div class="divider"></div>
+                    <div class="des">
+                        Random CC for eBay/Amazon/Aliexpress/Apple/Netflix...
+                    </div>
+                    <form class="grid-form">
+                        <div class="width-1-2">
+                            <div class="is-margin">
+                                <label class="form-label">bin</label>
+                                <div class="form-control">
+                                    <input type="text" maxlength="16" class="bin is-input" placeholder="453590">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="width-1-4">
+                            <div class="is-margin">
+                                <label class="form-label">month</label>
+                                <div class="form-control">
+                                    <select class="month is-select-option select-1">
+                                        <option value="random">Random</option>
+                                        <option value="01">January</option>
+                                        <option value="02">February</option>
+                                        <option value="03">March</option>
+                                        <option value="04">April</option>
+                                        <option value="05">May</option>
+                                        <option value="06">June</option>
+                                        <option value="07">July</option>
+                                        <option value="08">August</option>
+                                        <option value="09">September</option>
+                                        <option value="10">October</option>
+                                        <option value="11">November</option>
+                                        <option value="12">December</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="width-1-4">
+                            <div class="is-margin">
+                                <label class="form-label">year</label>
+                                <div class="form-control">
+                                    <select class="year is-select-option select-1">
+                                        <option value="random">Random</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                        <option value="2026">2026</option>
+                                        <option value="2027">2027</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="width-1-2">
+                            <div class="is-margin">
+                                <label class="form-label">cvv</label>
+                                <div class="form-control">
+                                    <input type="text" class="cvv is-input" placeholder="Leave blank to randomize">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="width-1-2">
+                            <div class="is-margin">
+                                <label class="form-label">quantity</label>
+                                <div class="form-control">
+                                    <input type="text" class="quantity is-input" value="10">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="width-1-1">
+                            <div class="is-margin">
+                                <label class="form-label">format</label>
+                                <div class="form-control">
+                                    <select class="format is-format is-select-option">
+                                        <option value="pipe">pipe</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="width-1-1">
+                            <div class="is-btn">
+                                <a href="javascript:void(0)" class="gen-btn">Generate</a>
+                            </div>
+                        </div>
+                        <div class="width-1-1">
+                            <div class="is-margin">
+                                <label class="form-label">result</label>
+                                <div class="form-control">
+                                    <textarea class="result is-textarea" rows="10" placeholder="xxxxxxxxxx"></textarea>
+                                    <div class="msg-blank"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="wrap">
+            <div class="bottom-line">
+                <div>
+                    © 2021
+                </div>
+                <div>
+                    Ver 1.0
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
